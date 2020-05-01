@@ -8,19 +8,12 @@ counts = story.count("PlaceHolder")
 Adj=[]
 for element in range(counts):
     Adj.append(input("Skriv adjektiv: "))
-    
+
+PlaceHolder = "Placeholder"
+
+'''
+for placeholder in Story:
+    story.append in range(adj[::1])
+'''    
                
-print(Adj)
-
-
-
-
-
-
-
-
-
-    
-
-#print(A)
-#print(c)
+#print(Adj)
