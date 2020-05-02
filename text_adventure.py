@@ -20,6 +20,31 @@ def rom_1(self, path):
 
 main_path_rom1=rom_1("")
 print(main_path_rom1)    
+
+rom_1("")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 '''   
 def rom_2(path_rom1):
     while path_rom1 != "1" and path_rom1 != "2":
@@ -37,5 +62,5 @@ def rom_2(path_rom1):
     #while path_rom1 != "2"
 print(path_rom2)
 '''
-rom_1("")
+
 #rom_2("")
