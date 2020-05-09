@@ -5,7 +5,7 @@ webbrowser.open(url = "https://www.vg.no/", new=1, autoraise=True)
 
 
 x = webbrowser.register(
-    "chrome2", None, "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+    "chrome2", None, "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe %s"
     )
 controller = webbrowser.get(x)
 
