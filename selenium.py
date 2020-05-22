@@ -6,11 +6,11 @@ import time
 chromedriver = r"C:\Users\nicol\Documents\chromedriver"
 driver = webdriver.Chrome(chromedriver)
 
-url = "https://www.youtube.no/"
+url = "https://www.aftenposten.no/"
 #url2 = "https://www.nrk.no/"
 driver.get(url)
 
-driver.find_element_by_tag_name("body").send_keys(Keys.CONTROL + "t")
-driver.get("http://www.google.com")
+elem = driver.find_element_by_tag_name("body").send_keys(Keys.CONTROL + "t")
+driver.get("www.bing.com")
 
 #driver.get(url2)
