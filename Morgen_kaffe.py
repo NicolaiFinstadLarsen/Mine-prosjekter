@@ -1,9 +1,13 @@
 import webbrowser
 
-def papers():
+url = "https://www.nrk.no/"
+
+for i in range(1,2):
     
-    webbrowser.open_new("https://www.aftenposten.no/")
-    webbrowser.open("https://www.nrk.no/", new=2, autoraise=True)
+    chrome_path1 = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe --profile-directory="Profile '+str(i)+'" %s'
+   
+    webbrowser.get(chrome_path1).open(url)
+    
     webbrowser.open("https://e24.no/", new=2, autoraise=True)
     webbrowser.open("https://www.dn.no/", new=2, autoraise=True)
     
@@ -13,8 +17,6 @@ def papers():
     
     webbrowser.open("https://investor.dn.no/#!/Oversikt", new=2, autoraise=True)
     webbrowser.open("https://www.shareville.no/me/portfolios", new=2, autoraise=True)
-    webbrowser.open("https://www.vg.no/", new=1, autoraise=True)
-    webbrowser.open("https://www.dagbladet.no/", new=0, autoraise=True)
+    webbrowser.open("https://www.vg.no/", new=2, autoraise=True)
+    webbrowser.open("https://www.dagbladet.no/", new=2, autoraise=True)
     
-    
-papers()
