@@ -10,7 +10,7 @@ url = "https://www.aftenposten.no/"
 #url2 = "https://www.nrk.no/"
 driver.get(url)
 
-elem = driver.find_element_by_tag_name("body").send_keys(Keys.CONTROL + "t")
-driver.get("www.bing.com")
+driver.find_element_by_css_selector("body").send_keys(Keys.CONTROL+"t");
+driver.get("http://www.bing.com")
 
 #driver.get(url2)
