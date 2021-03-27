@@ -1,0 +1,42 @@
+class tests:
+  def test(x,y):
+    return(x*y)
+
+  def test2(x,y):
+    return x**y
+  
+  i = 0
+
+  for i in range(0,5):
+    print(test(10,0+i))
+  
+  if i > 0:
+    for i in range(0,10):
+      print(test2(i,i))
+      i = 0
+
+  if i < 2:
+    print(i)
+    print("i er global?")
+
+  
+
+def odd_even(a):
+  a = 101
+  while a<100:
+  
+    if a%2==0:
+      print(a,"odd")
+    else: print(a, "even")
+    a += 1
+odd_even(0)
+
+
+
+
+def running_up(j):
+  j = 101
+  while j <= 100:
+    print(j, "x", j, "=", j*j)
+    j += 1
+running_up(0)
