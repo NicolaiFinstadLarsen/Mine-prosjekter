@@ -73,4 +73,4 @@ class nico:
       print("Volume of this sphere is:")
       print(1.3333333333*pi*(r**3))
   
-nico.area.Trapezoid(10,7,3)
+#nico.area.Trapezoid(10,7,3)
